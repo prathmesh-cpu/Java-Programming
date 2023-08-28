@@ -48,6 +48,7 @@ public class Qs6 {
         // Problem 5 ======================>
         int $ = 24; // ==> Doesn't give any error
         System.out.println($);
+        
         sc.close();
     }
 }

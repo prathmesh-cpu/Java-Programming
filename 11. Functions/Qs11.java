@@ -31,7 +31,7 @@ public class Qs11 {
     // Sum of Digits =====>
     public static void sumOfDigit(int num) {
         int temp = num, sum = 0;
-        while(num > 0) {
+        while(num > 0) { 
             sum += (num % 10);
             num /= 10;
         }

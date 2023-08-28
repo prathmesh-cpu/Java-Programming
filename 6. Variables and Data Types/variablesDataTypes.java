@@ -107,7 +107,6 @@ public class variablesDataTypes {
         float radius = sc.nextFloat();
         float area = 3.142f * radius * radius;
         System.out.println("Area of Circle: " + area);
-        sc.close();
 
         // -----------------------------------------------------------------------------
         // Type Conversion ==>
@@ -182,5 +181,6 @@ public class variablesDataTypes {
          * |---------- Compilation☝️ ----------| |---------- Execution☝️ ----------|
          */
         // Java is a Portable Language because its byte code is run on any OS.
+        sc.close();
     }
 }

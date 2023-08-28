@@ -224,5 +224,5 @@ public class patterns {
         palindromePattern(row);
 
         sc.close();
-    }
+    } 
 }

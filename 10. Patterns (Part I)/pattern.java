@@ -44,7 +44,7 @@ public class pattern {
                     ch = '0';
             }
             System.out.println();
-        }
+        } 
 
         sc.close();
     }

@@ -43,7 +43,7 @@ public class Qs7 {
         int exp1 = (y * (x / y + x / y));
         int exp2 = (y * x / y + y * x / y);
         System.out.println(exp1);
-        System.out.println(exp2);
+        System.out.println(exp2); 
 
         sc.close();
     }

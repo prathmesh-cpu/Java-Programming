@@ -229,7 +229,7 @@ public class function {
         binNum = sc.nextInt();
         decNum = binToDec(binNum);
         System.out.println("Decimal Number for '" + binNum + "' is " + decNum);
-        System.out.println();
+        System.out.println(); 
 
         // Scopes =========>
         // Function/ Method Scope.

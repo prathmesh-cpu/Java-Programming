@@ -42,7 +42,7 @@ public class Qs9 {
         // int n = sc.nextInt();
         // for (int i = 1; i <= 10; i++) {
         // System.out.println(n + " x " + i + " = " + (n * i));
-        // }
+        // } 
 
         // Problem 4 ======================> ⚠️ ERROR ⚠️
         // for (int i = 0; i <= 5; i++) {

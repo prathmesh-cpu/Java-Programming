@@ -98,7 +98,7 @@ public class loops {
         // if(i == 5)
         // break;
         // i++;
-        // }
+        // } 
 
         // -----------------------------------------------------------------------------
         // continue statement ===> To skip the iteration of loop

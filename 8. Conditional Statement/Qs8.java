@@ -68,7 +68,7 @@ public class Qs8 {
             System.out.println(year + " is a Leap Year.\n");
         } else {
             System.out.println(year + " is a not a Leap Year.\n");
-        }
+        } 
 
         sc.close();
     }

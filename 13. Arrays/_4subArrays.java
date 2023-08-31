@@ -54,7 +54,7 @@ public class _4subArrays {
         for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {
                 int sum = 0;
-                sum = i == 0 ? prefixArray[j] : prefixArray[j] - prefixArray[i - 1];
+                sum = (i == 0) ? prefixArray[j] : prefixArray[j] - prefixArray[i - 1];  // prefix[end] - prefix[start - 1]  ==> sum of subArray
                 if (sum > maxSumSubarray)
                     maxSumSubarray = sum;
                 if (sum < minSumSubarray)

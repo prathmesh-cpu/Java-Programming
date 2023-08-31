@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class trappingRainProb5 {
+public class _5trappingRainProb {
 
     public static int trap(int height[]) {
 

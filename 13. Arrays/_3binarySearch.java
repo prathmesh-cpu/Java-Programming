@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class binarySearch3 {
+public class _3binarySearch {
 
     /* --------------- Binary Search --------------- */
     /* ----------- Time Complexity: O(logn) ----------- */

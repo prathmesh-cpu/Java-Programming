@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class arraySearching2 {
+public class _2arraySearching {
 
     /* --------------- Linear Search --------------- */
     /* ----------- Time Complexity: O(n) ----------- */

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class subArrays4 {
+public class _4subArrays {
 
     /* --------------- Print Subarrays --------------- */
     /* ---------- Find Maximum Sum of Subarrays ---------- */

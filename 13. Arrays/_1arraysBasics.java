@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class arraysBasics1 {
+public class _1arraysBasics {
 
     public static void updateArray(int marks[]) {
         for (int i = 0; i < marks.length; i++) {

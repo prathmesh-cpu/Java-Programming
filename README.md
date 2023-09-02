@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/JAVA+DSA.png" title="Java + DSA" height="300px"/>
+  <img src="/JavaDSA.png" title="Java + DSA" height="300px"/>
 </p>
 
 # Java Programming Course by Apna College

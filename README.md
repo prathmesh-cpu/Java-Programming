@@ -38,12 +38,6 @@ I've organized my learning by numbering the folders according to the course modu
    - Understanding functions and methods.
    - Writing reusable code with parameters and return values.
 
-7. Data Structures and Algorithms (DSA)
-   - Embarking on the journey of learning DSA.
-   - Exploring fundamental data structures and algorithms.
-
-**New Progress:**
-
 8. Arrays and Searching Algorithms
    - Introduction to arrays as a data structure.
    - Implementing searching algorithms like linear and binary search.
@@ -55,6 +49,10 @@ I've organized my learning by numbering the folders according to the course modu
      - Insertion Sort
      - Inbuilt Sorting
      - Counting Sort
+
+10. Data Structures and Algorithms (DSA)
+   - Embarking on the journey of learning DSA.
+   - Exploring fundamental data structures and algorithms.
 
 ## Next Steps
 

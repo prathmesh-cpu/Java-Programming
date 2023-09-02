@@ -116,7 +116,7 @@ public class loops {
         int num = sc.nextInt();
         boolean isPrime = true;
 
-        for (int i = 2; i < Math.sqrt(num); i++) {
+        for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0)
                 isPrime = false;
         }

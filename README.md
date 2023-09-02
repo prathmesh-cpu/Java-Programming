@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="JAVA+DSA.png" title="Java + DSA" height="300px"/>
+</p>
+
 # Java Programming Course by Apna College
 
 Welcome to my Java Programming Course journey! In this repository, I've been learning Java programming through the comprehensive modules provided by Apna College, under the guidance of the amazing instructor, Shraddha Khapra.

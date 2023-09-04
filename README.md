@@ -42,17 +42,21 @@ I've organized my learning by numbering the folders according to the course modu
    - Understanding functions and methods.
    - Writing reusable code with parameters and return values.
 
-8. Arrays and Searching Algorithms
+7. Arrays and Searching Algorithms
    - Introduction to arrays as a data structure.
    - Implementing searching algorithms like linear and binary search.
 
-9. Sorting Algorithms
+8. Sorting Algorithms
    - Exploring sorting algorithms, including:
      - Bubble Sort
      - Selection Sort
      - Insertion Sort
      - Inbuilt Sorting
      - Counting Sort
+
+9. 2D Arrays
+    - Understanding the concept of 2D arrays.
+    - Working with multi-dimensional data structures.
 
 10. Data Structures and Algorithms (DSA)
    - Embarking on the journey of learning DSA.

@@ -11,6 +11,8 @@ public class _1arraysBasics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // +++++++++++++++ Arrays are MUTABLE. +++++++++++++++
+
         // Array Creation -
 
         // int numbers[] = {1, 2, 3};

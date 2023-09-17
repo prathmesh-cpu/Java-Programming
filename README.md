@@ -58,7 +58,11 @@ I've organized my learning by numbering the folders according to the course modu
     - Understanding the concept of 2D arrays.
     - Working with multi-dimensional data structures.
 
-10. Data Structures and Algorithms (DSA)
+10. Strings
+    - Introduction to string manipulation in Java.
+    - Manipulating strings using String, StringBuilder, and StringBuffer.
+
+11. Data Structures and Algorithms (DSA)
    - Embarking on the journey of learning DSA.
    - Exploring fundamental data structures and algorithms.
 

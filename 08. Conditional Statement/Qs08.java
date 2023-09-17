@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Qs8 {
+public class Qs08 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

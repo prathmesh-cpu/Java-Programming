@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=ADLaM+Display&size=40&duration=4000&background=2400FF00&center=true&multiline=true&width=850&height=103&lines=Hey+There+%F0%9F%91%8B;Welcome+to+My+Repository)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=ADLaM+Display&size=40&duration=4000&background=2400FF00&center=true&multiline=true&width=850&height=103&lines=Hey+There+%F0%9F%91%8B;Welcome+to+Java+World🌏)](https://git.io/typing-svg)
 
 ![Java DSA Image](/JavaDSA.jpg)
 

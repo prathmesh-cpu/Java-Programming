@@ -8,7 +8,7 @@ public class _3constructors {
         // Non-parameterized called --->
         Student s1 = new Student();
         s1.name = "Ram";
-        
+
         // Parameterized called --->
         Student s2 = new Student("Prathamesh");
         s2.name = "Ram";
@@ -48,12 +48,22 @@ class Student {
     String password;
     int marks[];
 
-    // Copy costructor --->
+    // Copy costructor ---> It is shallow copy constructor
+    // Student(Student stud) {
+    // marks = new int[3];
+    // this.name = stud.name;
+    // this.age = stud.age;
+    // this.marks = stud.marks;
+    // }
+
+    // Copy constructor ---> It is deep copy constructor
     Student(Student stud) {
         marks = new int[3];
         this.name = stud.name;
         this.age = stud.age;
-        this.marks = stud.marks;
+        for (int i = 0; i < marks.length; i++) {
+            this.marks[i] = stud.marks[i];
+        }
     }
 
     // Non-parameterized constructor --->

@@ -73,4 +73,8 @@ class BankAccount {
         this.password = password;
     }
 
+    public void getPassword() {
+        System.out.println(this.username + " " + this.password);
+    }
+
 }

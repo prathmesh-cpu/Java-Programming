@@ -7,11 +7,15 @@ public class _3constructors {
 
         // Non-parameterized called --->
         Student s1 = new Student();
-
+        s1.name = "Ram";
+        
         // Parameterized called --->
         Student s2 = new Student("Prathamesh");
+        s2.name = "Ram";
         Student s3 = new Student(20);
+        s3.name = "Ram";
         Student s4 = new Student("Prathamesh", 20); // Multiple parameters
+        s4.name = "Ram";
 
         // Copying constructor --->
         Student s5 = new Student();

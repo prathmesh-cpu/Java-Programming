@@ -21,13 +21,12 @@ public class _1OOPS {
         // ------------- Access Specifiers -------------
         // ---- private, default, protected, public ----
         BankAccount myAccount = new BankAccount();
-        myAccount.username = "prathameshdhavale";
         // myAccount.password = "jspm#123"; ---> ERROR
         /*
          * It gives an Error, because it is private,
          * we can't access it outside the BankAccount class.
          */
-        myAccount.setPassword("jspm#123");
+        myAccount.setPassword("prathamesh", "jspm#123");
 
         sc.close();
     }
@@ -69,7 +68,9 @@ class BankAccount {
     public String username;
     private String password;
 
-    public void setPassword(String pwd) {
-        password = pwd;
+    public void setPassword(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
+
 }

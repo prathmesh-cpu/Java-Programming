@@ -62,7 +62,15 @@ I've organized my learning by numbering the folders according to the course modu
     - Introduction to string manipulation in Java.
     - Manipulating strings using String, StringBuilder, and StringBuffer.
 
-11. Data Structures and Algorithms (DSA)
+11. Bit Manipulation
+    - Exploring bitwise operations like AND, OR, XOR, NOT.
+    - Understanding left and right shift operations.
+
+12. Object-Oriented Programming (OOPS)
+    - Understanding the 4 pillars of OOPS: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+    - Exploring key OOP concepts, including constructors, interfaces, the 'super' keyword, and static methods.
+
+13. Data Structures and Algorithms (DSA)
    - Embarking on the journey of learning DSA.
    - Exploring fundamental data structures and algorithms.
 

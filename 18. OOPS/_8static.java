@@ -6,9 +6,11 @@ public class _8static {
         Scanner sc = new Scanner(System.in);
 
         // Class.function();
-        Student.setClg("JSPM's RSCOE"); // Set a static value
+        Student.setClg("JSPM's RSCOE"); // Set a static value firstly
 
         Student s1 = new Student();
+        s1.name = "ABC";
+        s1.rollNo = 1;
         s1.getInfo();
 
         Student s2 = new Student();
@@ -29,6 +31,10 @@ class Student {
 
     static void setClg(String name) {
         clgName = name;
+    }
+
+    static int returnPercent(int phy, int chem, int maths) {
+        return (phy + chem + maths) / 3;
     }
 
     void getInfo() {

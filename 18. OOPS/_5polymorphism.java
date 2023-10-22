@@ -10,6 +10,9 @@ public class _5polymorphism {
         System.out.println(cal.sum(1.5f, 2.1f));
         System.out.println(cal.sum(1, 4, 5));
 
+        Deer d = new Deer();
+        d.eat();
+
         sc.close();
     }
 }
@@ -26,5 +29,18 @@ class Calculator {
 
     int sum(int a, int b, int c) {
         return (a + b + c);
+    }
+}
+
+// Method Overriding ---> Run time
+class Animal {
+    void eat() {
+        System.out.println("Eat Anything");
+    }
+}
+
+class Deer extends Animal {
+    void eat() {
+        System.out.println("Eats Grass");
     }
 }

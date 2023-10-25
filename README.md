@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=ADLaM+Display&size=40&duration=4000&background=2400FF00&center=true&multiline=true&width=850&height=103&lines=Hey+There+%F0%9F%91%8B;Welcome+to+Java+World🌏)](https://git.io/typing-svg)
 
-![Java DSA Image](/JavaDSA.jpg)
+![JavaDSA](https://github.com/prathmesh-cpu/Java-Programming/assets/56761941/6699b4cf-b05c-4e73-940b-a359525b6de4)
 
 # Java Programming Course by Apna College
 

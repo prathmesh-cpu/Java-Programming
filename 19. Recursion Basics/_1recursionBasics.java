@@ -33,6 +33,23 @@ public class _1recursionBasics {
         return fn;
     }
 
+    // Print Sum of first N Number --------------->
+    public static int nSum(int n) {
+        if (n == 1) {
+            return 1;
+        }
+
+        return n + nSum(n - 1);
+    }
+
+    // Print Nth Fibonacci Number --------------->
+    public static int fib(int n) {
+        if(n == 0) return 0;
+        if(n == 1) return 1;
+
+        return fib(n - 1) + fib(n - 2);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -45,6 +62,10 @@ public class _1recursionBasics {
 
         n = 5;
         System.out.println("Factorial of " + n + ": " + fact(n));
+        n = 100;
+        System.out.println("Sum of first " + n + " Natural Numbers: " + nSum(n));
+        n = 40;
+        System.out.println(n + "th Fibonacci Numbers: " + fib(n));
         sc.close();
     }
 }

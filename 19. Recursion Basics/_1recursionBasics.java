@@ -44,17 +44,29 @@ public class _1recursionBasics {
 
     // Print Nth Fibonacci Number --------------->
     public static int fib(int n) {
-        if(n == 0) return 0;
-        if(n == 1) return 1;
+        if (n == 0 || n == 1) {
+            return n;
+        }
 
         return fib(n - 1) + fib(n - 2);
+    }
+
+    // Array is Sorted or Not --------------->
+    public static boolean isSorted(int arr[], int i) {
+        if (i == arr.length - 1)
+            return true;
+
+        if (arr[i] <= arr[i + 1]) {
+            return isSorted(arr, i + 1);
+        } else {
+            return false;
+        }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = 10;
-
         printDecNum(n);
         System.out.println();
         printIncNum(n);
@@ -66,6 +78,10 @@ public class _1recursionBasics {
         System.out.println("Sum of first " + n + " Natural Numbers: " + nSum(n));
         n = 40;
         System.out.println(n + "th Fibonacci Numbers: " + fib(n));
+
+        int arr[] = {1,3,4,6,7,8,3};
+        System.out.println("Is Given Array Sorted? : " + isSorted(arr, 0));
+
         sc.close();
     }
 }

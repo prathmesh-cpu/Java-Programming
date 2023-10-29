@@ -63,6 +63,29 @@ public class _1recursionBasics {
         }
     }
 
+    // Find the First Occurrence of an Element in an Array --------------->
+    public static int firstOccur(int arr[], int i, int k) {
+        if (arr[i] == k)
+            return i;
+        if (i == arr.length - 1)
+            return -1;
+        else
+            return firstOccur(arr, i + 1, k);
+    }
+
+    // Find the Last Occurrence of an Element in an Array --------------->
+    public static int lastOccur(int arr[], int i, int k) {
+        if (i == arr.length - 1)
+            return -1;
+
+        int isFound = lastOccur(arr, i + 1, k);
+        if (isFound == -1 && arr[i] == k) {
+            return i;
+        }
+
+        return isFound;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -79,8 +102,11 @@ public class _1recursionBasics {
         n = 40;
         System.out.println(n + "th Fibonacci Numbers: " + fib(n));
 
-        int arr[] = {1,3,4,6,7,8,3};
+        int arr[] = { 8, 3, 6, 9, 5, 10, 2, 5, 4 };
         System.out.println("Is Given Array Sorted? : " + isSorted(arr, 0));
+
+        int k = 4;
+        System.out.println("First occurrence of " + k + " on index " + firstOccur(arr, 0, k));
 
         sc.close();
     }

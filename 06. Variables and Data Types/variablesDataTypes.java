@@ -140,7 +140,7 @@ public class variablesDataTypes {
          * Casting is created by Programmer.
          * byte -> short -> int -> float -> long -> double
          * byte <- short <- int <- float <- long <- double
-         * Both ways are compaible for type casting
+         * Both ways are compatible for type casting
          */
 
         int marks = (int) (99.99f);

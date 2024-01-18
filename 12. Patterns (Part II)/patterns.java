@@ -171,7 +171,7 @@ public class patterns {
         // int row = sc.nextInt();
         // System.out.print("Enter Number of Columns: ");
         // int col = sc.nextInt();
-        // hollowRect(row, col);int
+        // hollowRect(row, col);
 
         // Print Inverted and Rotated Half Pyramid
         // System.out.print("Enter Number of Rows: ");

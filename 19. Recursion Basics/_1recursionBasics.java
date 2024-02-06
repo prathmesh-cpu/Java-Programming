@@ -3,6 +3,7 @@ import java.util.*;
 public class _1recursionBasics {
 
     // Print N to 1 Number --------------->
+    // ----------- Time Complexity: O(n)
     public static void printDecNum(int n) {
         if (n == 1) {
             System.out.print(n);
@@ -13,6 +14,7 @@ public class _1recursionBasics {
     }
 
     // Print 1 to N Number --------------->
+    // ----------- Time Complexity: O(n)
     public static void printIncNum(int n) {
         if (n == 1) {
             System.out.print(n + " ");
@@ -23,6 +25,7 @@ public class _1recursionBasics {
     }
 
     // Factorial of a Number --------------->
+    // ----------- Time Complexity: O(n)
     public static int fact(int n) {
         if (n == 0) {
             return 1;
@@ -34,6 +37,7 @@ public class _1recursionBasics {
     }
 
     // Print Sum of first N Number --------------->
+    // ----------- Time Complexity: O(n)
     public static int nSum(int n) {
         if (n == 1) {
             return 1;
@@ -43,6 +47,7 @@ public class _1recursionBasics {
     }
 
     // Print Nth Fibonacci Number --------------->
+    // ----------- Time Complexity: O(n)
     public static int fib(int n) {
         if (n == 0 || n == 1) {
             return n;
@@ -52,6 +57,7 @@ public class _1recursionBasics {
     }
 
     // Array is Sorted or Not --------------->
+    // ----------- Time Complexity: O(n)
     public static boolean isSorted(int arr[], int i) {
         if (i == arr.length - 1)
             return true;
@@ -64,6 +70,7 @@ public class _1recursionBasics {
     }
 
     // Find the First Occurrence of an Element in an Array --------------->
+    // ----------- Time Complexity: O(n)
     public static int firstOccur(int arr[], int i, int k) {
         if (arr[i] == k)
             return i;
@@ -74,6 +81,7 @@ public class _1recursionBasics {
     }
 
     // Find the Last Occurrence of an Element in an Array --------------->
+    // ----------- Time Complexity: O(n)
     public static int lastOccur(int arr[], int i, int k) {
         if (i == arr.length - 1)
             return -1;
@@ -105,8 +113,10 @@ public class _1recursionBasics {
         int arr[] = { 8, 3, 6, 9, 5, 10, 2, 5, 4 };
         System.out.println("Is Given Array Sorted? : " + isSorted(arr, 0));
 
-        int k = 4;
+        int k = 5;
         System.out.println("First occurrence of " + k + " on index " + firstOccur(arr, 0, k));
+
+        System.out.println("Last occurrence of " + k + " on index " + lastOccur(arr, 0, k));
 
         sc.close();
     }

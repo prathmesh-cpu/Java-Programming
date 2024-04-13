@@ -54,7 +54,8 @@ public class _4subArrays {
         for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {
                 int sum = 0;
-                sum = (i == 0) ? prefixArray[j] : prefixArray[j] - prefixArray[i - 1];  // prefix[end] - prefix[start - 1]  ==> sum of subArray
+                sum = (i == 0) ? prefixArray[j] : prefixArray[j] - prefixArray[i - 1]; // prefix[end] - prefix[start -
+                                                                                       // 1] ==> sum of subArray
                 if (sum > maxSumSubarray)
                     maxSumSubarray = sum;
                 if (sum < minSumSubarray)
@@ -69,29 +70,16 @@ public class _4subArrays {
     /* ------------------- Time Complexity: O(n) ------------------- */
 
     public static void kadaneAlgo(int array[]) {
-        int maxSumSubarray = Integer.MIN_VALUE;
-        int currSum = 0;
-        boolean flag = true;
+        int maxSumSubarray = Integer.MIN_VALUE, currSum = 0;
 
         for (int i = 0; i < array.length; i++) {
             currSum += array[i];
-            if (currSum < 0)
-                currSum = 0;
 
             if (currSum > maxSumSubarray)
                 maxSumSubarray = currSum;
 
-            if (maxSumSubarray > 0)
-                flag = false;
-        }
-
-        // For all negative numbers -
-        if (flag) {
-            maxSumSubarray = Integer.MIN_VALUE;
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] > maxSumSubarray)
-                    maxSumSubarray = array[i];
-            }
+            if (currSum < 0)
+                currSum = 0;
         }
 
         System.out.println("\nMaximum Sum of a Subarray: " + maxSumSubarray);

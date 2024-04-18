@@ -83,7 +83,7 @@ public class _1recursionBasics {
     // Find the Last Occurrence of an Element in an Array --------------->
     // ----------- Time Complexity: O(n)
     public static int lastOccur(int arr[], int i, int k) {
-        if (i == arr.length - 1)
+        if (i == arr.length)
             return -1;
 
         int isFound = lastOccur(arr, i + 1, k);
@@ -113,7 +113,7 @@ public class _1recursionBasics {
         int arr[] = { 8, 3, 6, 9, 5, 10, 2, 5, 4 };
         System.out.println("Is Given Array Sorted? : " + isSorted(arr, 0));
 
-        int k = 5;
+        int k = 4;
         System.out.println("First occurrence of " + k + " on index " + firstOccur(arr, 0, k));
 
         System.out.println("Last occurrence of " + k + " on index " + lastOccur(arr, 0, k));

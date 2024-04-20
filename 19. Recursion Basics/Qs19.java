@@ -19,9 +19,8 @@ public class Qs19 {
             return;
         }
 
-        int lastDigit = n % 10;
         digitToWord(n / 10);
-        System.out.print(digits[lastDigit] + " ");
+        System.out.print(digits[n % 10] + " ");
     }
 
     public static int length(String str) {
@@ -32,21 +31,18 @@ public class Qs19 {
         return length(str.substring(1)) + 1;
     }
 
-    public static int countSubstr(String str, int i, int j, int n) {
-        if (n == 1)
-            return 1;
-        if (n <= 0)
-            return 0;
+    public static int countSubstr(String str, int st, int en, int cnt) {
+        if (str.length() == st || str.length() == en)
+            return cnt;
 
-        int res = countSubstr(str, i + 1, j, n - 1) + countSubstr(str, i, j - 1, n - 1)
-                - countSubstr(str, i + 1, j - 1, n - 2);
+        if (str.charAt(st) == str.charAt(en))
+            cnt++;
 
-        if (str.charAt(i) == str.charAt(j)) {
-            System.out.println(i + " " + j);
-            res++;
-        }
+        cnt = countSubstr(str, st, en + 1, cnt);
+        if (st == en)
+            cnt = countSubstr(str, st + 1, en + 1, cnt);
 
-        return res;
+        return cnt;
     }
 
     public static void main(String[] args) {
@@ -72,11 +68,12 @@ public class Qs19 {
         String str = "Hello World";
         System.out.print("Size of String '" + str + "': " + length(str));
         System.out.println();
+        System.out.println();
 
         // Problem 4 ===============>
         str = "aba";
         System.out.println("Number of substring starting and ending with same character: "
-                + countSubstr(str, 0, str.length() - 1, str.length()));
+                + countSubstr(str, 0, 0, 0));
         System.out.println();
 
         sc.close();

@@ -45,6 +45,17 @@ public class Qs19 {
         return cnt;
     }
 
+    // Time Complexity : O(2ⁿ)
+    public static void towerOfHanoi(int n, char src, char helper, char dest) {
+        if (n == 1) {
+            System.out.println("Transfer Disk-" + n + " from " + src + " to " + dest + ".");
+            return;
+        }
+        towerOfHanoi(n - 1, src, dest, helper);
+        System.out.println("Transfer Disk-" + n + " from " + src + " to " + dest + ".");
+        towerOfHanoi(n - 1, helper, src, dest);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -74,6 +85,15 @@ public class Qs19 {
         str = "aba";
         System.out.println("Number of substring starting and ending with same character: "
                 + countSubstr(str, 0, 0, 0));
+        System.out.println();
+        System.out.println();
+
+        // Problem 5 ===============>
+        n = 3;
+        System.out.print("Tower Of Hanoi ----------> \n");
+        System.out.println();
+        towerOfHanoi(n, 'S', 'H', 'D');
+        System.out.println();
         System.out.println();
 
         sc.close();
